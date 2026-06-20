@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "TranslateAndRender.h"
 #include <stdlib.h>
+#include "map.h"
 int *TransformInto1D(struct pixelmap *MAP2D){
   //Convert into format, so that the returned array is thee size of sizeof(int) * width * height
   int width = (*MAP2D).width;
