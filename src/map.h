@@ -5,5 +5,5 @@ struct pixelmap {
   unsigned int height;
   unsigned int **pixels;
 };
-
+struct pixelmap *createMap(unsigned int width,unsigned int height);
 #endif
