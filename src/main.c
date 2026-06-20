@@ -13,6 +13,7 @@ int main(int argc, char* argv[]) {
   struct pixelmap *mappy = createMap(width,height);
   printf("%p\n",mappy);
   printf("Width: %u,Height: %u",(*mappy).width,(*mappy).height);
+  printf("%p",TransformInto1D(mappy));
   SDL_Window *win = SDL_CreateWindow("My Map",SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED,1920,1080,0);
   SDL_Event userevent;
   SDL_Renderer *winrender = SDL_CreateRenderer(win,-1,0);
