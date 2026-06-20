@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "map.h"
 struct pixelmap *createMap(unsigned int width,unsigned int height){
   struct pixelmap *worldMap = malloc(sizeof(struct pixelmap)); 
   worldMap -> width = width;

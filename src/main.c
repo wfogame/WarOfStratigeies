@@ -1,5 +1,6 @@
 #include <SDL2/SDL.h>
 #include <stdio.h>
+#include "map.h"
 int main(int argc, char* argv[]) {
     unsigned int height;
     unsigned int width;
