@@ -4,5 +4,4 @@ project(WarOfStrategies)
 find_package(SDL2 REQUIRED)
 
 add_executable(warofstrat src/main.c)
-
-target_link_libraries(warofstrat PRIVATE SDL2::SDL2)
+target_link_libraries(warofstrat PRIVATE SDL2::SDL2 SDL2::SDL2main)
